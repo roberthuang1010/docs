@@ -1,20 +1,18 @@
 ```eval_rst
 :github_url: https://github.com/littlevgl/docs/blob/master/zh-CN/get-started/pc-simulator.md
 ```
-# PC上的模拟器
+# PC模拟器
 
+你可以 **仅使用PC机** 去测试 LittlevGL （即无需任何开发板）。 LittlevGL可以运行在一个任何人都可以编写及测试实际 LittlevGL 应用程序的模拟环境中。
+PC模拟器有如下优点：
+- 硬件独立 - 写一次代码，可在PC模拟器上运行及观测运行结果
+- 跨平台 - 任意Windows, Linux 或 OSX 平台机器都可以运行PC模拟器
+- 可移植性 - 编写的代码可移植, 意味着编写的代码可轻松复制到嵌入式硬件中
+- 易于验证 - 每一个用户都有一个通用平台，使得平台模拟器在查找程序漏洞方面非常有用。在模拟器中重现一个漏洞并在[论坛](https://forum.littlevgl.com) 中发布代码片段是个不错的点子.
 
-You can try out the LittlevGL **using only your PC** (i.e. without any development boards). The LittlevGL will run on a simulator environment on the PC where anyone can write and experiment the real LittlevGL applications.
-
-Simulator on the PC have the following advantages:
-- Hardware independent - Write a code, run it on the PC and see the result on the PC monitor.
-- Cross-platform - Any Windows, Linux or OSX PC can run the PC simulator.  
-- Portability - the written code is portable, which means you can simply copy it when using an embedded hardware.
-- Easy Validation - The simulator is also very useful to report bugs because it means common platform for every user. So it's a good idea to reproduce a bug in simulator and use the code snippet in the [Forum](https://forum.littlevgl.com).
 
 ## 选择一个IDE
-
-The simulator is ported to various IDEs (Integrated Development Environments). Choose your favorite IDE, read its README on GitHub, download the project, and load it to the IDE.
+模拟器被移植到多个IDE(集成开发环境)中。选择你最喜欢的IDE,阅读 GitHub 里面的相关IDE的 README 文档, 下载项目文件并将其导入到IDE中。
 
 ```eval_rst
 .. raw:: html
@@ -48,11 +46,8 @@ The simulator is ported to various IDEs (Integrated Development Environments). C
   </tbody></table>
 ```
 
-
-You can use any IDEs for the development but, for simplicity, the configuration for Eclipse CDT is focused in this tutorial.
-The following section describes the set-up guide of Eclipse CDT in more details.
-
-**Note: If you are on Windows, it's usually better to use the Visual Studio or CodeBlocks projects instead. They work out of the box without requiring extra steps.**
+可以用任意IDE去开发程序，为了简便起见，本教程重点介绍 Eclipse CDT 的配置。下一节将更加详细地介绍 Eclipse CDT 的设置。
+**注: 如果你用Windows操作系统, 使用Visual Studio 或 CodeBlocks会更好一些, 他们不需要额外配置即可直接使用.**
 
 ## 配置 Eclipse CDT
 
